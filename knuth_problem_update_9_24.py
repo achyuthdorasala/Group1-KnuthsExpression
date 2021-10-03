@@ -101,6 +101,8 @@ while continue_prompt:
         exit()
     else:
         try:
+            seen_states = {}
+            state_list =["3"]
             target = int(user_input)
             print("Calculating.... please wait ...")
             advance(target)
